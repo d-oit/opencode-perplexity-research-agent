@@ -1,6 +1,6 @@
-# OpenCode Perplexity Research Agent
+# OpenCode Perplexity Research Agents
 
-This repository contains the **OpenCode configuration** for integrating **Perplexity AI research agents** using the OpenCode.
+This repository contains **Perplexity AI research agents** for OpenCode
 
 ## Overview
 
