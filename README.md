@@ -1,16 +1,25 @@
 # OpenCode Perplexity Research Agents
 
-This repository contains **Perplexity AI research agents** for OpenCode
+This repository contains **OpenCode agents** for Perplexity AI research, including multi-model Sonar agents managed via the Perplexity Provider.
 
 ## Overview
 
 This project provides:
-- Reusable `opencode.json` configuration as reference
-- Ready-to-use OpenCode agent folder structure for research execution for all Sonar models as agents in OpenCode
+- Reusable `opencode.json` configuration as a reference
+- Ready-to-use OpenCode agent folder structure for research execution
+- Support for Sonar family AI models integrated through Perplexity Provider
 
 ## Configuration
 
-- All API keys are managed internally by the OpenCode authentication system. Setup Perplexity Provider with the API Key.
+- API keys are managed internally by the OpenCode authentication system.
+- Setup Perplexity Provider with your API key for all models.
+
+## Example Usage
+
+Start an agent run with the existing OpenCode CLI:
+```bash
+opencode run agent/your-agent.md
+```
 
 ## References
 
@@ -21,8 +30,12 @@ This project provides:
 
 ## Contributing
 
-Pull requests are welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Pull requests are welcome. Please review [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+Maintained by [d‑oit](https://github.com/d-oit)
