@@ -22,13 +22,15 @@ The included agents, such as the Perplexity Researcher, utilize the Sonar AI mod
 - Structured markdown output with inline citations, tables, and lists
 
 
-Agent Name                           |  Model                           |  Description                                                                                                                                                                                                         
--------------------------------------+----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-perplexity-researcher                |  perplexity/sonar                |  Comprehensive, multi-source real-time research with synthesis and citation, comparative analysis, fact verification with proper markdown formatting and structured responses. Suitable for general research queries.
-perplexity-researcher-deep           |  perplexity/sonar-deep-research  |  Deep, exhaustive multi-source research for long-form detailed reports, white papers, market analyses requiring extensive coverage and analytical depth.                                                             
-perplexity-researcher-pro            |  perplexity/sonar-pro            |  Professional-grade, complex research agent with deep domain knowledge, multi-step reasoning, rigorous source evaluation, and technical or academic analytical rigor.                                                
-perplexity-researcher-reasoning      |  perplexity/sonar-reasoning      |  Focused on explicit logical reasoning and transparent step-by-step analysis for troubleshooting, diagnostic tasks, or clarifying decision-making paths.                                                             
-perplexity-researcher-reasoning-pro  |  perplexity/sonar-reasoning-pro  |  Highest-level reasoning for complex multi-dimensional decisions, strategic planning, and expert-level judgment with sophisticated reasoning frameworks.                                                             
+| Agent Name                        | Model                  | Description                                                                                                                       |
+|---------------------------------|------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| perplexity-researcher            | perplexity/sonar       | Comprehensive, multi-source real-time research with synthesis and citation, comparative analysis, fact verification with proper markdown formatting and structured responses. Suitable for general research queries. |
+| perplexity-researcher-deep       | perplexity/sonar-deep-research | Deep, exhaustive multi-source research for long-form detailed reports, white papers, market analyses requiring extensive coverage and analytical depth. |
+| perplexity-researcher-pro        | perplexity/sonar-pro   | Professional-grade, complex research agent with deep domain knowledge, multi-step reasoning, rigorous source evaluation, and technical or academic analytical rigor. |
+| perplexity-researcher-reasoning  | perplexity/sonar-reasoning | Focused on explicit logical reasoning and transparent step-by-step analysis for troubleshooting, diagnostic tasks, or clarifying decision-making paths. |
+| perplexity-researcher-reasoning-pro | perplexity/sonar-reasoning-pro | Highest-level reasoning for complex multi-dimensional decisions, strategic planning, and expert-level judgment with sophisticated reasoning frameworks. |
+
+These agents span from general researcher to deep, pro, and reasoning-focused variations, all utilizing Sonar models from Perplexity to suit different research and analytic scenarios. Their configurations restrict certain tool accesses to maintain focused capabilities aligned with their purpose.
 
 
 ## References
