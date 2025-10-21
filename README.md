@@ -14,13 +14,6 @@ This project provides:
 - API keys are managed internally by the OpenCode authentication system.
 - Setup Perplexity Provider with your API key for all models.
 
-## Example Usage
-
-Start an agent run with the existing OpenCode CLI:
-```bash
-opencode run agent/your-agent.md
-```
-
 ## References
 
 - [Perplexity Chat Completions Guide](https://docs.perplexity.ai/guides/chat-completions-guide)
