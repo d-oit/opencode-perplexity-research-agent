@@ -1,21 +1,20 @@
 # OpenCode Perplexity Research Agent
 
-This repository contains the complete **OpenCode configuration** for integrating **Perplexity AI Research Agents** with **Sonar API** and **AI‑SDK provider flows**. It enables streamlined research agent setups using [OpenCode](https://opencode.ai/) and [Perplexity API](https://docs.perplexity.ai/guides/chat-completions-guide).
+This repository contains the **OpenCode configuration** for integrating **Perplexity AI research agents** using the existing OpenCode CLI.
 
 ## Overview
 
 This project provides:
-- Reusable `opencode.json` configuration for multi‑agent systems.
-- Integration templates for **Perplexity**, **Sonar**, and **AI‑SDK** providers.
-- Ready‑to‑use OpenCode task and pipeline structure for research execution.
+- Reusable `opencode.json` configuration for multi-agent systems
+- Agent configuration templates for **Perplexity AI** model and other supported models such as **Sonar**
+- Ready-to-use OpenCode agent folder structure for research execution
 
 ## Architecture
 
-```
+```plaintext
 .opencode/
+├── agent/               # Agent configuration markdown files
 ├── config.json          # OpenCode agent configuration
-├── agents/              # Agent blueprints and behavior definitions
-├── workflows/           # GOAP & task orchestration examples
 opencode.json            # Root manifest
 ```
 
@@ -27,28 +26,25 @@ opencode.json            # Root manifest
    cd opencode-perplexity-research-agent
    ```
 
-2. Install OpenCode CLI (if not installed):
-   ```bash
-   npm install -g @opencode/cli
-   ```
+2. Use the existing OpenCode CLI (no extra installation needed).
 
 3. Start an agent run:
    ```bash
-   opencode run workflows/research-perplexity.json
+   opencode run agent/your-agent.md
    ```
 
 ## Configuration
 
-- **Perplexity Integration:** Follows the [Perplexity Chat Completions Guide](https://docs.perplexity.ai/guides/chat-completions-guide)
-- **AI SDK Models:** Uses providers from [ai-sdk.dev](https://ai-sdk.dev/providers/ai-sdk-providers/perplexity)
-- **Model Registry:** Compatible with listings on [models.dev](https://models.dev/?search=Perplexity)
+- All API keys are managed internally by the OpenCode CLI authentication system.
+- No environment variable exports or separate key management is required.
+- Models such as **Sonar** are AI models used within OpenCode, not providers.
 
-Example environment setup:
-```bash
-export OPENAI_API_KEY="..."
-export PERPLEXITY_API_KEY="..."
-export SONAR_API_KEY="..."
-```
+## References
+
+- [Perplexity Chat Completions Guide](https://docs.perplexity.ai/guides/chat-completions-guide)
+- [OpenCode AI Coding Agent](https://opencode.ai/)
+- [Perplexity AI SDK Provider](https://ai-sdk.dev/providers/ai-sdk-providers/perplexity)
+- [Perplexity Models on models.dev](https://models.dev/?search=Perplexity)
 
 ## Contributing
 
