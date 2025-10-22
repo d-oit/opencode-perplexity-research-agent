@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Thank you for considering contributing to **OpenCode Perplexity Research Agent**! Contributions are essential to the project.
+Thank you for considering contributing to **OpenCode Perplexity Research Agent** Contributions are essential to the project.
 
 ## How to Contribute
 
@@ -11,9 +11,10 @@ Thank you for considering contributing to **OpenCode Perplexity Research Agent**
 
 ## Code Style
 
-- Use standard Prettier formatting.
-- Include comments for nontrivial logic.
+- Latest best Practice OpenCode Agents / Markdown Format
 
-## Reporting Issues
+  
+## Manuell Test with OpenCode 
 
-Use the issue templates provided under `.github/ISSUE_TEMPLATE` for reporting bugs or proposing features.
+- Always test all agents and models manually with OpenCode to verify the implementation. Provide a screenshot of the successfully test.
+  
